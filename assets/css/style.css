@@ -1,0 +1,19 @@
+/* css botão*/
+.botao{
+    color: green;
+    background-color: #396161;
+    border:none; 
+    border-radius: 5px;
+    padding: 1em;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;  
+}
+.botao:hover{
+    background-color: beige;
+    transition: 2s;
+    color: black;
+}
+.botao:active{
+    background-color: blueviolet;
+}
