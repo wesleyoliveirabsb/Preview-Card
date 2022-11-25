@@ -1,19 +1,16 @@
 /* css botão*/
-.botao{
-    color: green;
-    background-color: #396161;
-    border:none; 
-    border-radius: 5px;
-    padding: 1em;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: black;  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%);
 }
-.botao:hover{
-    background-color: beige;
-    transition: 2s;
-    color: black;
+
+main{
+    margin: auto;
+    background-color: white;
+    
 }
-.botao:active{
-    background-color: blueviolet;
+
+p{
+    font-family: 'Montserrat', sans-serif;    
 }
