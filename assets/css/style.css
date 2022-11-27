@@ -6,12 +6,17 @@ body{
 }
 
 main{
+    width: 600px;
     margin: auto;
     background-color: white;
     
 }
-
+ img{
+    width: 200px;
+    height: 100px;
+ }
 p{
+    text-align: right;
     font-size:14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;    
