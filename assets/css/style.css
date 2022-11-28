@@ -1,23 +1,43 @@
 /* css botão*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
 body{
     background-color: hsl(30, 38%, 92%);
 }
 
 main{
-    width: 600px;
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
     margin: auto;
     background-color: white;
-    
+    margin-top: 100px;  
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 3em;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+}
+.button:hover{
+    background-color: hsl(157, 35%, 16%);
 }
  img{
     width: 200px;
-    height: 100px;
+    height: 400px;
  }
 p{
     text-align: right;
     font-size:14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;    
+}
+h1{
+    font-family: 'Fraunces', serif;
+    text-align: right;
 }
