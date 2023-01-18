@@ -4,60 +4,86 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main{
-    border-radius: 20px;
-    height: 400px;
-    width: 500px;
+    display: flex;
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
     margin: auto;
     background-color: white;
-    margin-top: 100px;  
+    overflow: hidden;
 }
 .conteudo{
-    height: 400px;
-    width: 200px;
-    transform: translate(140%);
+    height: 450px;
+    width: 50%;
+    margin-left: 20px;
 }
-header p{
+header{
+    color: gray;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
     text-align: left;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 .conteudo> p{
-    text-align: justify;
-    line-height: 1.4em;
+    line-height: 1.7em;
 }
 .produto{
-    border-radius: 20px,20px,20px,20px;
-
-    transform: translate(0%,-100%)
+    object-fit: contain;
+    width: 50%;
+    
+}
+.precos{
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-content: center; 
+    margin-bottom: 30px;
+}
+.atual{
+    font-weight: bold;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+.desconto{
+    display: grid;
+    align-items: center;
+    font-size: 13px;
+    color: gray;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-left: 30px;
 }
 .button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     border: none;
     border-radius: 10px;
-    width: 200px;
+    width: 90%;
     height: 3em;
     color: white;
     background-color: hsl(158, 36%, 37%);
 }
 .button:hover{
+    cursor: pointer;
     background-color: hsl(157, 35%, 16%);
 }
- img{
-    border-radius: 20px,20px,20px,20px;
-    width: 250px;
-    height: 400px;
- }
 p{
-    text-align: right;
     font-size:14px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;    
+    font-weight: 500;
+    color: gray;  
+    margin-bottom: 30px;
 }
 h1{
     font-family: 'Fraunces', serif;
-    text-align: left;
     font-size: 2em ;
+    margin-bottom: 20px;
 }
